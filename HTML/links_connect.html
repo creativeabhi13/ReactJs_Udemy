@@ -14,17 +14,49 @@
             padding: 12px;
 
         }
+
+        #topbar {
+            list-style-type: none;
+            background-color: brown;
+            padding: 16px;
+        }
+
+        .section {
+            width: 100%;
+            height: 250px;
+        }
+
+        #first-section {
+            background-color: orangered;
+        }
+
+        #second-section {
+            background-color: whitesmoke;
+        }
+
+        #third-section {
+            background-color: green;
+        }
     </style>
 </head>
 
 <body>
-    <ul style="list-style-type: none;">
+    <ul id="topbar">
         <li class="menu-item"> <a href="links_connect.html">Home</a></li>
         <li class="menu-item"><a href="links_connect.html">About</a></li>
         <li class="menu-item"><a href="links_connect.html">Contact</a></li>
         <li class="menu-item"><a href="links_connect.html">Social</a></li>
         <li class="menu-item"><a href="block_inline.html">Block Inline</a></li>
     </ul>
+    <div id="first-section" class="section">
+        <h1 class="section-heading">Landing Section</h1>
+    </div>
+    <div id="second -section" class="section">
+        <h1 class="section-heading">About Section</h1>
+    </div>
+    <div id="third-section" class="section">
+        <h1 class="section-heading">Contact Section</h1>
+    </div>
 </body>
 
 </html>
