@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Forms Practice Problem Solution </title>
+    <style>
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        body {
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 16px;
+
+        }
+
+        form {
+            background-color: white;
+            width: 700px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+        }
+
+        #form-heading {
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+
+        }
+
+        #social-wrapper {
+            background-color: #f2f6ff;
+            padding: 24px;
+        }
+
+        #input-wrapper {
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .input-box {
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+        #btn-submit {
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: whitesmoke;
+            background-origin: padding-box;
+            border: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1 id="form-heading">Register</h1>
+        <div id="social-wrapper">
+            <img class="social-icon" src="https://img.icons8.com/?size=512&id=V5cGWnc9R4xj&format=png" alt="">
+            <img class="social-icon" src="https://img.icons8.com/?size=512&id=118497&format=png" alt="">
+
+            <img class="social-icon" src=" https://img.icons8.com/?size=512&id=62856&format=png" alt="">
+
+
+            <img class="social-icon" src="  https://img.icons8.com/?size=512&id=13930&format=png" alt="">
+        </div>
+        <div id="input-wrapper">
+            <div>
+                <input class="input-box" type="text" name="username" placeholder="Username" required>
+            </div>
+            <div>
+                <input class="input-box" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <input class="input-box" type="password" name="password" placeholder="Password" required>
+            </div>
+            <div>
+                <input class="input-box" type="password" name="confirm-password" placeholder="Confirm Password"
+                    required>
+            </div>
+            <input id="btn-submit" type="submit" value="Register">
+
+        </div>
+    </form>
+</body>
+
+</html>
