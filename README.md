@@ -1,5 +1,5 @@
 
-Register Webpage Ui
+Register Webpage Ui(HTML+CSS)
 ![image](https://github.com/creativeabhi13/ReactJs_Udemy/assets/76790667/b7fd93a8-e48e-4b18-887d-93720c8aef9c)
 Signup and Login (HTML+CSS)
 ![image](https://github.com/creativeabhi13/ReactJs_Udemy/assets/76790667/ab1f58c9-4fbb-48cd-ba37-fa162ed296be)
